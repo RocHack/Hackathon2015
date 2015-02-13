@@ -13,7 +13,12 @@ testObject.save({foo: "bar"}).then(function(object) {
 window.onload = function() {
     document.getElementById("submitButton").onclick = function fun() {
         alert("hello");
-        //validation code to see State field is mandatory.  
+        var firstName = $("#first").value
+        var lastName = $("#last").value
+        var email = $("#email").value
+        alert(firstname + " " + lastname + " " + email)
+        //validation code to see State field is mandatory.
+        
     }
 }
 function submit () {
