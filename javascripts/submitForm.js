@@ -21,7 +21,3 @@ window.onload = function() {
         
     }
 }
-function submit () {
-  
-  alert("TEST")
-}
