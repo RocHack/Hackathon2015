@@ -9,9 +9,9 @@ var user = new Users();
 
 window.onload = function() {
     document.getElementById("submitButton").onclick = function fun() {
-        var firstName = document.getElementById("first").val();
-        var lastName = document.getElementById("last").val();
-        var email = document.getElementById("email").val();
+        var firstName = document.getElementById("first").value;
+        var lastName = document.getElementById("last").value;
+        var email = document.getElementById("email").value;
         user.set("firstName", firstName);
         user.set("lastName", lastName);
         user.set("email", email);
