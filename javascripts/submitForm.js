@@ -10,6 +10,12 @@ testObject.save({foo: "bar"}).then(function(object) {
   var email = form.elements[2].value
 });
 
+window.onload = function() {
+    document.getElementById("submitButton").onclick = function fun() {
+        alert("hello");
+        //validation code to see State field is mandatory.  
+    }
+}
 function submit () {
   
   alert("TEST")
