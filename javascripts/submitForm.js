@@ -4,20 +4,14 @@ var testObject = new TestObject();
 
 
 testObject.save({foo: "bar"}).then(function(object) {
-  var form = document.forms[0]
-  var firstName = form.elements[0].value
-  var lastName = form.elements[1].value
-  var email = form.elements[2].value
 });
 
 window.onload = function() {
     document.getElementById("submitButton").onclick = function fun() {
-        alert("hello");
-        var firstName = $("#first").value
-        var lastName = $("#last").value
-        var email = $("#email").value
-        alert(firstname + " " + lastname + " " + email)
-        //validation code to see State field is mandatory.
-        
+        var firstName = document.getElementById("first").value;
+        var lastName = document.getElementById("last").value;
+        var email = document.getElementById("email").value;
+        alert(firstName + lastName + email)
+        //validation code to see State field is mandatory.  
     }
 }
