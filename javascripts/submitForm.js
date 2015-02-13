@@ -12,5 +12,5 @@ testObject.save({foo: "bar"}).then(function(object) {
 
 function submit () {
   
-  alert(firstName)
+  alert("TEST")
 }
