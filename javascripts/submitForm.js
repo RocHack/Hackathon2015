@@ -16,7 +16,3 @@ window.onload = function() {
         //validation code to see State field is mandatory.  
     }
 }
-function submit () {
-  
-  alert("TEST")
-}
